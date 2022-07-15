@@ -118,19 +118,21 @@ input[type="url"]:placeholder{color:#666;}
 header{
     background-color: #405CA3;
     left: 0;
+    height: 100vh;
     padding: 10px 0;
     position: fixed;
     right: 0;
     top: 0;
+    z-index: 1;
 }
-header section{
+header section:first-child{
     align-items: center;
     display: flex;
     justify-content: space-between;
 }
 figure{width: fit-content;}
 /* abrir */
-.menu{
+#menu-btn{
     padding-right: 26px;
 }
 .burg{
@@ -142,3 +144,62 @@ figure{width: fit-content;}
 }
 .menu-1{padding-bottom: 5px;}
 .menu-2, .menu-3{padding: 5px 0;}
+/* menu */
+nav{
+  background-color: #fff;
+  margin-top: -220%;
+  min-height: 100%;
+  position: absolute;
+  min-width: 100%;
+  z-index: 99;
+}
+nav section > article{
+  box-shadow: 0px 1px 10px -2px rgb(0 0 0 / 25%);
+  display: block;
+  min-height: 78px;
+}
+li article .close-icon-top{
+  margin-right: 16px;
+  position: absolute;
+  right: 0;
+}
+nav ul li{
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0;
+  position: relative
+}
+ul li p{
+  padding: 0 26px;
+}
+li ul{
+  display: none;
+  margin: 0 25px;
+  padding-left: 15px;
+}
+ul li p, li ul li{font: 400 18px/20px 'Work Sans';}
+#close-btn{
+    align-items: center;
+    display: flex;
+}
+.close-icon-top{
+    border: solid #405CA3;
+    border-width: 0 4px 4px 0;
+    content: "";
+    display: inline-block;
+    padding: 6px;
+    position: absolute;
+    margin-top: 22px;
+    top: 0;
+    transform: rotate(45deg);
+}
+.close-icon-bottom{
+    border: solid #405CA3;
+    border-width: 0 4px 4px 0;
+    content: "";
+    display: inline-block;
+    padding: 6px;
+    position: absolute;
+    margin-top: 22px;
+    top: 17px;
+    transform: rotate(225deg);
+}
