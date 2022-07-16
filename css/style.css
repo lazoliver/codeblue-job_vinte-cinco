@@ -149,10 +149,14 @@ figure{width: fit-content;}
 nav{
   background-color: #fff;
   height: 100%;
-  margin-top: -100vh;
+  top: -100vh;
   position: absolute;
   width: 100%;
   z-index: 99;
+}
+.open-menu{
+  top: 0;
+  transition: .5s ease all;
 }
 nav section > article{
   box-shadow: 0px 1px 10px -2px rgb(0 0 0 / 25%);
@@ -171,6 +175,7 @@ nav ul li{
 ul li p, ul li a{
   cursor: pointer;
   display: block;
+  font: 400 18px/20px 'Work Sans';
   padding: 20px 26px;
 }
 li ul{
@@ -178,7 +183,7 @@ li ul{
   margin: 0 25px;
   padding-left: 15px;
 }
-ul li p, li ul li, ul li a{font: 400 18px/20px 'Work Sans';}
+ul li p, li ul li{font: 400 18px/20px 'Work Sans';}
 #close-btn{
     align-items: center;
     cursor: pointer;
