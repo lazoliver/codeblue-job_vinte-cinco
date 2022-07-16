@@ -181,6 +181,7 @@ li ul{
 ul li p, li ul li{font: 400 18px/20px 'Work Sans';}
 #close-btn{
     align-items: center;
+    cursor: pointer;
     display: flex;
 }
 .close-icon-top{

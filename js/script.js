@@ -5,7 +5,7 @@ $(document).ready(function() {
     });
     // Menu Fechar
     $("#close-btn").click(function() {
-        $("nav").css({"transition": "2s ease all", "margin-top": "-220%"});
+        $("nav").css({"transition": "2s ease all", "margin-top": "-50%"});
     });
     // Dropdown - Soluções
     $("#solucoes").click(function() {
