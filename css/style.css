@@ -149,7 +149,7 @@ figure{width: fit-content;}
 nav{
   background-color: #fff;
   height: 100%;
-  margin-top: -50%;
+  margin-top: -100vh;
   position: absolute;
   width: 100%;
   z-index: 99;
