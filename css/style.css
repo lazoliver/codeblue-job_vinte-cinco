@@ -206,3 +206,7 @@ ul li p, li ul li{font: 400 18px/20px 'Work Sans';}
     top: 17px;
     transform: rotate(225deg);
 }
+.dropdown-icon{
+  transition: .5s ease all;
+  transform: rotate(225deg)
+}
