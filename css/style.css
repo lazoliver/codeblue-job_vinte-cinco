@@ -133,6 +133,7 @@ header section:first-child{
 figure{width: fit-content;}
 /* abrir */
 #menu-btn{
+    cursor: pointer;
     padding-right: 26px;
 }
 .burg{
@@ -147,10 +148,9 @@ figure{width: fit-content;}
 /* menu */
 nav{
   background-color: #fff;
-  margin-top: -220%;
-  min-height: 100%;
+  height: 100%;
   position: absolute;
-  min-width: 100%;
+  width: 100%;
   z-index: 99;
 }
 nav section > article{
@@ -169,6 +169,7 @@ nav ul li{
   position: relative
 }
 ul li p{
+  cursor: pointer;
   padding: 0 26px;
 }
 li ul{
@@ -185,6 +186,7 @@ ul li p, li ul li{font: 400 18px/20px 'Work Sans';}
     border: solid #405CA3;
     border-width: 0 4px 4px 0;
     content: "";
+    cursor: pointer;
     display: inline-block;
     padding: 6px;
     position: absolute;
@@ -196,6 +198,7 @@ ul li p, li ul li{font: 400 18px/20px 'Work Sans';}
     border: solid #405CA3;
     border-width: 0 4px 4px 0;
     content: "";
+    cursor: pointer;
     display: inline-block;
     padding: 6px;
     position: absolute;
