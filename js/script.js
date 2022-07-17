@@ -6,4 +6,9 @@ $(document).ready(function() {
     $("#close-btn").click(function() {
         $("nav").removeClass("open-menu")
     });
+    // Accordion
+    $("article#menu-sub").click(function(){
+        $(this).next("ul").toggle()
+        $(this ).next(".close-icon-top").toggleClass("dropdown-icon");
+    });
 });

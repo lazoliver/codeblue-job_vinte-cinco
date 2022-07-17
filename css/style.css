@@ -118,7 +118,6 @@ input[type="url"]:placeholder{color:#666;}
 header{
     background-color: #405CA3;
     left: 0;
-    height: 100vh;
     padding: 10px 0;
     position: fixed;
     right: 0;
@@ -149,8 +148,9 @@ figure{width: fit-content;}
 nav{
   background-color: #fff;
   height: 100%;
-  top: -100vh;
+  overflow: hidden;
   position: absolute;
+  top: -100vh;
   width: 100%;
   z-index: 99;
 }
